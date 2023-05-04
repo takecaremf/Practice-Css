@@ -1,30 +1,29 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
-  }
-  table td {
-	background-image: linear-gradient(to bottom, #a9a9a9, #585858, #333333);
-  .film-title {
-	margin-bottom: 1.25em;
-  }
-  
-  .film-cast {
-	margin-top: 0.25em;
-  }
 }
+
 table.dark {
-	border: 1px solid #1a1a1a;}
+	border: 1px solid #1a1a1a;
+	border-spacing: 0px;
+}
 
 table.dark th {
-	border-bottom:1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #1c1c1c;
+	color: #ebe8e3;
+	text-align: start;
+	padding: 5px 10px;
+	text-transform: uppercase;
 }
 
 table.dark td {
-	border-right:1px solid #1a1a1a;
+	border-right: 1px solid #1a1a1a;
+	background-size: contain;
+	color:  #6e6e60;
+	padding: 30px 10px;
 }
-
 table.dark h4 {
-	font-weight:normal;
-}
-th {
-	text-align: left;
+	font-weight: normal;
+	color:  #ebe8e3;
+	margin: 1px 0;
 }
