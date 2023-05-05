@@ -22,14 +22,16 @@ body {
   }
   
   #wrap {
-    border: 5px dotted black;
+    border: dashed;
     padding: 10px;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     box-shadow: 0px 0px 10px #BDBDBD;
-  }
- 
+  } 
+.line {
+    border-style: dashed none none none;
+}
   p {
     font-size: 16px;
     line-height: 1.5;
@@ -64,7 +66,7 @@ body {
   }
 
   a {
-    color: green;
+    color: red;
     text-decoration: underline;
   }
 
